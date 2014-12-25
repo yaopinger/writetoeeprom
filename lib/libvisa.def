@@ -1,0 +1,17 @@
+EXPORTS
+    CLK_Read_LD = CLK_Read_LD@8 @1
+    CLK_Read_LD@8 @2
+    CLK_Write = CLK_Write@12 @3
+    CLK_Write@12 @4
+    DeviceInit = DeviceInit@4 @5
+    DeviceInit@4 @6
+    ReadLocalBus = ReadLocalBus@16 @7
+    ReadLocalBus@16 @8
+    WriteLocalBus = WriteLocalBus@16 @9
+    WriteLocalBus@16 @10
+    viIn16 = viIn16@16 @11
+    viIn16@16 @12
+    viOpen = viOpen@20 @13
+    viOpen@20 @14
+    viOut16 = viOut16@16 @15
+    viOut16@16 @16

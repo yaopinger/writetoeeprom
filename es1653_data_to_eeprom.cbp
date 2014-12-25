@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="es1653_data_to_eeprom" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/es1653_data_to_eeprom" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/es1653_data_to_eeprom" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="." />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="lib\PlxApi.lib" />
+			<Add library="lib\ivi.dll" />
+			<Add library="lib\ivifgen.dll" />
+			<Add library="lib\PlxApi650.dll" />
+			<Add library="lib\pthreadGC2.dll" />
+			<Add library="lib\pthreadGCE2.dll" />
+			<Add library="lib\pthreadVC2.dll" />
+			<Add library="lib\pthreadVSE2.dll" />
+			<Add library="lib\visa.dll" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="include/DeviceInit.h" />
+		<Unit filename="include/ES1653.h" />
+		<Unit filename="include/PciRegs.h" />
+		<Unit filename="include/PciTypes.h" />
+		<Unit filename="include/PexApi.h" />
+		<Unit filename="include/Plx.h" />
+		<Unit filename="include/PlxApi.h" />
+		<Unit filename="include/PlxDefCk.h" />
+		<Unit filename="include/PlxIoctl.h" />
+		<Unit filename="include/PlxNetIoctl.h" />
+		<Unit filename="include/PlxNetTypes.h" />
+		<Unit filename="include/PlxStat.h" />
+		<Unit filename="include/PlxTypes.h" />
+		<Unit filename="include/Plx_sysdep.h" />
+		<Unit filename="include/Reg8311.h" />
+		<Unit filename="include/Reg9030.h" />
+		<Unit filename="include/Reg9050.h" />
+		<Unit filename="include/Reg9054.h" />
+		<Unit filename="include/Reg9056.h" />
+		<Unit filename="include/Reg9080.h" />
+		<Unit filename="include/Reg9656.h" />
+		<Unit filename="include/ad9954.h" />
+		<Unit filename="include/addr_decode.h" />
+		<Unit filename="include/adf4351.h" />
+		<Unit filename="include/analog_implement.h" />
+		<Unit filename="include/calibrate_data.h" />
+		<Unit filename="include/hardware_para.h" />
+		<Unit filename="include/hw_utility.h" />
+		<Unit filename="include/ivi.h" />
+		<Unit filename="include/ivifgen.h" />
+		<Unit filename="include/list.h" />
+		<Unit filename="include/math.h" />
+		<Unit filename="include/utility.h" />
+		<Unit filename="include/visa.h" />
+		<Unit filename="include/visatype.h" />
+		<Unit filename="include/vpptype.h" />
+		<Unit filename="include/write_eeprom.h" />
+		<Unit filename="src/DeviceInit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ES1653_write_eeprom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/hw_utility.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utility.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/visa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/write_eeprom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

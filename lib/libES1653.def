@@ -1,0 +1,195 @@
+EXPORTS
+    ES1653_AbortGeneration = ES1653_AbortGeneration@4 @1
+    ES1653_AbortGeneration@4 @2
+    ES1653_CheckAttributeViReal64 = ES1653_CheckAttributeViReal64@20 @3
+    ES1653_CheckAttributeViReal64@20 @4
+    ES1653_ClearArbSequence = ES1653_ClearArbSequence@8 @5
+    ES1653_ClearArbSequence@8 @6
+    ES1653_ClearArbWaveform = ES1653_ClearArbWaveform@8 @7
+    ES1653_ClearArbWaveform@8 @8
+    ES1653_ConfigureAMDepth = ES1653_ConfigureAMDepth@16 @9
+    ES1653_ConfigureAMDepth@16 @10
+    ES1653_ConfigureAMEnabled = ES1653_ConfigureAMEnabled@12 @11
+    ES1653_ConfigureAMEnabled@12 @12
+    ES1653_ConfigureAMFrequency = ES1653_ConfigureAMFrequency@16 @13
+    ES1653_ConfigureAMFrequency@16 @14
+    ES1653_ConfigureAMInternal = ES1653_ConfigureAMInternal@28 @15
+    ES1653_ConfigureAMInternal@28 @16
+    ES1653_ConfigureAMSource = ES1653_ConfigureAMSource@12 @17
+    ES1653_ConfigureAMSource@12 @18
+    ES1653_ConfigureAMWaveform = ES1653_ConfigureAMWaveform@12 @19
+    ES1653_ConfigureAMWaveform@12 @20
+    ES1653_ConfigureArbGain = ES1653_ConfigureArbGain@16 @21
+    ES1653_ConfigureArbGain@16 @22
+    ES1653_ConfigureArbOffset = ES1653_ConfigureArbOffset@16 @23
+    ES1653_ConfigureArbOffset@16 @24
+    ES1653_ConfigureArbSequence = ES1653_ConfigureArbSequence@28 @25
+    ES1653_ConfigureArbSequence@28 @26
+    ES1653_ConfigureArbWaveform = ES1653_ConfigureArbWaveform@28 @27
+    ES1653_ConfigureArbWaveform@28 @28
+    ES1653_ConfigureArbWaveformHandle = ES1653_ConfigureArbWaveformHandle@12 @29
+    ES1653_ConfigureArbWaveformHandle@12 @30
+    ES1653_ConfigureBurstCount = ES1653_ConfigureBurstCount@12 @31
+    ES1653_ConfigureBurstCount@12 @32
+    ES1653_ConfigureBurstEnabled = ES1653_ConfigureBurstEnabled@12 @33
+    ES1653_ConfigureBurstEnabled@12 @34
+    ES1653_ConfigureBurstInternal = ES1653_ConfigureBurstInternal@16 @35
+    ES1653_ConfigureBurstInternal@16 @36
+    ES1653_ConfigureBurstMode = ES1653_ConfigureBurstMode@12 @37
+    ES1653_ConfigureBurstMode@12 @38
+    ES1653_ConfigureBurstPhase = ES1653_ConfigureBurstPhase@16 @39
+    ES1653_ConfigureBurstPhase@16 @40
+    ES1653_ConfigureBurstSource = ES1653_ConfigureBurstSource@12 @41
+    ES1653_ConfigureBurstSource@12 @42
+    ES1653_ConfigureClockOutputEnable = ES1653_ConfigureClockOutputEnable@8 @43
+    ES1653_ConfigureClockOutputEnable@8 @44
+    ES1653_ConfigureFMDeviation = ES1653_ConfigureFMDeviation@16 @45
+    ES1653_ConfigureFMDeviation@16 @46
+    ES1653_ConfigureFMEnabled = ES1653_ConfigureFMEnabled@12 @47
+    ES1653_ConfigureFMEnabled@12 @48
+    ES1653_ConfigureFMFrequency = ES1653_ConfigureFMFrequency@16 @49
+    ES1653_ConfigureFMFrequency@16 @50
+    ES1653_ConfigureFMInternal = ES1653_ConfigureFMInternal@28 @51
+    ES1653_ConfigureFMInternal@28 @52
+    ES1653_ConfigureFMSource = ES1653_ConfigureFMSource@12 @53
+    ES1653_ConfigureFMSource@12 @54
+    ES1653_ConfigureFMWaveform = ES1653_ConfigureFMWaveform@12 @55
+    ES1653_ConfigureFMWaveform@12 @56
+    ES1653_ConfigureFSKEnabled = ES1653_ConfigureFSKEnabled@12 @57
+    ES1653_ConfigureFSKEnabled@12 @58
+    ES1653_ConfigureFSKHopFrequency = ES1653_ConfigureFSKHopFrequency@16 @59
+    ES1653_ConfigureFSKHopFrequency@16 @60
+    ES1653_ConfigureFSKInternal = ES1653_ConfigureFSKInternal@16 @61
+    ES1653_ConfigureFSKInternal@16 @62
+    ES1653_ConfigureFSKMode = ES1653_ConfigureFSKMode@12 @63
+    ES1653_ConfigureFSKMode@12 @64
+    ES1653_ConfigureFSKSource = ES1653_ConfigureFSKSource@12 @65
+    ES1653_ConfigureFSKSource@12 @66
+    ES1653_ConfigureFuncWaveform = ES1653_ConfigureFuncWaveform@12 @67
+    ES1653_ConfigureFuncWaveform@12 @68
+    ES1653_ConfigureOperationMode = ES1653_ConfigureOperationMode@12 @69
+    ES1653_ConfigureOperationMode@12 @70
+    ES1653_ConfigureOutputEnabled = ES1653_ConfigureOutputEnabled@12 @71
+    ES1653_ConfigureOutputEnabled@12 @72
+    ES1653_ConfigureOutputMode = ES1653_ConfigureOutputMode@8 @73
+    ES1653_ConfigureOutputMode@8 @74
+    ES1653_ConfigurePMDeviation = ES1653_ConfigurePMDeviation@16 @75
+    ES1653_ConfigurePMDeviation@16 @76
+    ES1653_ConfigurePMEnabled = ES1653_ConfigurePMEnabled@12 @77
+    ES1653_ConfigurePMEnabled@12 @78
+    ES1653_ConfigurePMFrequency = ES1653_ConfigurePMFrequency@16 @79
+    ES1653_ConfigurePMFrequency@16 @80
+    ES1653_ConfigurePMInternal = ES1653_ConfigurePMInternal@28 @81
+    ES1653_ConfigurePMInternal@28 @82
+    ES1653_ConfigurePMSource = ES1653_ConfigurePMSource@12 @83
+    ES1653_ConfigurePMSource@12 @84
+    ES1653_ConfigurePMWaveform = ES1653_ConfigurePMWaveform@12 @85
+    ES1653_ConfigurePMWaveform@12 @86
+    ES1653_ConfigurePSKEnabled = ES1653_ConfigurePSKEnabled@12 @87
+    ES1653_ConfigurePSKEnabled@12 @88
+    ES1653_ConfigurePSKHopPhase = ES1653_ConfigurePSKHopPhase@16 @89
+    ES1653_ConfigurePSKHopPhase@16 @90
+    ES1653_ConfigurePSKInternal = ES1653_ConfigurePSKInternal@16 @91
+    ES1653_ConfigurePSKInternal@16 @92
+    ES1653_ConfigurePSKMode = ES1653_ConfigurePSKMode@12 @93
+    ES1653_ConfigurePSKMode@12 @94
+    ES1653_ConfigurePSKSource = ES1653_ConfigurePSKSource@12 @95
+    ES1653_ConfigurePSKSource@12 @96
+    ES1653_ConfigurePulse = ES1653_ConfigurePulse@32 @97
+    ES1653_ConfigurePulse@32 @98
+    ES1653_ConfigurePulseDutyCycle = ES1653_ConfigurePulseDutyCycle@16 @99
+    ES1653_ConfigurePulseDutyCycle@16 @100
+    ES1653_ConfigureRefClockSource = ES1653_ConfigureRefClockSource@8 @101
+    ES1653_ConfigureRefClockSource@8 @102
+    ES1653_ConfigureSampleClockOutputEnable = ES1653_ConfigureSampleClockOutputEnable@8 @103
+    ES1653_ConfigureSampleClockOutputEnable@8 @104
+    ES1653_ConfigureSampleClockSource = ES1653_ConfigureSampleClockSource@8 @105
+    ES1653_ConfigureSampleClockSource@8 @106
+    ES1653_ConfigureSampleRate = ES1653_ConfigureSampleRate@12 @107
+    ES1653_ConfigureSampleRate@12 @108
+    ES1653_ConfigureSquareDutyCycle = ES1653_ConfigureSquareDutyCycle@16 @109
+    ES1653_ConfigureSquareDutyCycle@16 @110
+    ES1653_ConfigureStandardWaveform = ES1653_ConfigureStandardWaveform@44 @111
+    ES1653_ConfigureStandardWaveform@44 @112
+    ES1653_ConfigureSweep = ES1653_ConfigureSweep@36 @113
+    ES1653_ConfigureSweep@36 @114
+    ES1653_ConfigureSweepEnabled = ES1653_ConfigureSweepEnabled@12 @115
+    ES1653_ConfigureSweepEnabled@12 @116
+    ES1653_ConfigureSweepSource = ES1653_ConfigureSweepSource@12 @117
+    ES1653_ConfigureSweepSource@12 @118
+    ES1653_ConfigureSweepSpacing = ES1653_ConfigureSweepSpacing@12 @119
+    ES1653_ConfigureSweepSpacing@12 @120
+    ES1653_ConfigureSweepStartFreq = ES1653_ConfigureSweepStartFreq@16 @121
+    ES1653_ConfigureSweepStartFreq@16 @122
+    ES1653_ConfigureSweepStopFreq = ES1653_ConfigureSweepStopFreq@16 @123
+    ES1653_ConfigureSweepStopFreq@16 @124
+    ES1653_ConfigureSweepTime = ES1653_ConfigureSweepTime@16 @125
+    ES1653_ConfigureSweepTime@16 @126
+    ES1653_ConfigureTriggerEnabled = ES1653_ConfigureTriggerEnabled@12 @127
+    ES1653_ConfigureTriggerEnabled@12 @128
+    ES1653_ConfigureTriggerInternal = ES1653_ConfigureTriggerInternal@16 @129
+    ES1653_ConfigureTriggerInternal@16 @130
+    ES1653_ConfigureTriggerLevel = ES1653_ConfigureTriggerLevel@12 @131
+    ES1653_ConfigureTriggerLevel@12 @132
+    ES1653_ConfigureTriggerMode = ES1653_ConfigureTriggerMode@12 @133
+    ES1653_ConfigureTriggerMode@12 @134
+    ES1653_ConfigureTriggerSlope = ES1653_ConfigureTriggerSlope@12 @135
+    ES1653_ConfigureTriggerSlope@12 @136
+    ES1653_ConfigureTriggerSource = ES1653_ConfigureTriggerSource@12 @137
+    ES1653_ConfigureTriggerSource@12 @138
+    ES1653_ConfigureWfmAmplitude = ES1653_ConfigureWfmAmplitude@16 @139
+    ES1653_ConfigureWfmAmplitude@16 @140
+    ES1653_ConfigureWfmFrequency = ES1653_ConfigureWfmFrequency@16 @141
+    ES1653_ConfigureWfmFrequency@16 @142
+    ES1653_ConfigureWfmOffset = ES1653_ConfigureWfmOffset@16 @143
+    ES1653_ConfigureWfmOffset@16 @144
+    ES1653_ConfigureWfmPhase = ES1653_ConfigureWfmPhase@16 @145
+    ES1653_ConfigureWfmPhase@16 @146
+    ES1653_CreateArbSequence = ES1653_CreateArbSequence@20 @147
+    ES1653_CreateArbSequence@20 @148
+    ES1653_CreateArbWaveform = ES1653_CreateArbWaveform@16 @149
+    ES1653_CreateArbWaveform@16 @150
+    ES1653_GetAttributeViBoolean = ES1653_GetAttributeViBoolean@16 @151
+    ES1653_GetAttributeViBoolean@16 @152
+    ES1653_GetAttributeViInt32 = ES1653_GetAttributeViInt32@16 @153
+    ES1653_GetAttributeViInt32@16 @154
+    ES1653_GetAttributeViReal64 = ES1653_GetAttributeViReal64@16 @155
+    ES1653_GetAttributeViReal64@16 @156
+    ES1653_GetAttributeViSession = ES1653_GetAttributeViSession@16 @157
+    ES1653_GetAttributeViSession@16 @158
+    ES1653_GetAttributeViString = ES1653_GetAttributeViString@20 @159
+    ES1653_GetAttributeViString@20 @160
+    ES1653_InitWithOptions = ES1653_InitWithOptions@20 @161
+    ES1653_InitWithOptions@20 @162
+    ES1653_InitiateGeneration = ES1653_InitiateGeneration@4 @163
+    ES1653_InitiateGeneration@4 @164
+    ES1653_QueryArbSeqCapabilities = ES1653_QueryArbSeqCapabilities@20 @165
+    ES1653_QueryArbSeqCapabilities@20 @166
+    ES1653_QueryArbWfmCapabilities = ES1653_QueryArbWfmCapabilities@20 @167
+    ES1653_QueryArbWfmCapabilities@20 @168
+    ES1653_SendSoftwareTrigger = ES1653_SendSoftwareTrigger@12 @169
+    ES1653_SendSoftwareTrigger@12 @170
+    ES1653_Seq_SetLoopCount = ES1653_Seq_SetLoopCount@16 @171
+    ES1653_Seq_SetLoopCount@16 @172
+    ES1653_Seq_SetNumber = ES1653_Seq_SetNumber@12 @173
+    ES1653_Seq_SetNumber@12 @174
+    ES1653_Seq_SetStartAddr = ES1653_Seq_SetStartAddr@16 @175
+    ES1653_Seq_SetStartAddr@16 @176
+    ES1653_Seq_SetWaveform = ES1653_Seq_SetWaveform@20 @177
+    ES1653_Seq_SetWaveform@20 @178
+    ES1653_Seq_config = ES1653_Seq_config@12 @179
+    ES1653_Seq_config@12 @180
+    ES1653_SetAttributeViBoolean = ES1653_SetAttributeViBoolean@16 @181
+    ES1653_SetAttributeViBoolean@16 @182
+    ES1653_SetAttributeViInt32 = ES1653_SetAttributeViInt32@16 @183
+    ES1653_SetAttributeViInt32@16 @184
+    ES1653_SetAttributeViReal64 = ES1653_SetAttributeViReal64@20 @185
+    ES1653_SetAttributeViReal64@20 @186
+    ES1653_SetAttributeViSession = ES1653_SetAttributeViSession@16 @187
+    ES1653_SetAttributeViSession@16 @188
+    ES1653_SetAttributeViString = ES1653_SetAttributeViString@16 @189
+    ES1653_SetAttributeViString@16 @190
+    ES1653_close = ES1653_close@4 @191
+    ES1653_close@4 @192
+    ES1653_init = ES1653_init@16 @193
+    ES1653_init@16 @194
