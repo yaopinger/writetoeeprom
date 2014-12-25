@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #include"DeviceInit.h"
 #include"utility.h"
 #include"ES1653.h"
@@ -51,7 +51,7 @@ int main()
     {
         cal_init_eeprom(phch[i]);
     }
-    printf("ÇëÊäÈëÈÎÒâÖµ£¬ÍË³ö~\n");
+    printf("è¯·è¾“å…¥ä»»æ„å€¼ï¼Œé€€å‡º~\n");
     getchar();
 
 	return 0;
