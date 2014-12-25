@@ -15,6 +15,20 @@ int main()
     ViSession io,vi;
     int i;
 
+#if 0
+    i = ceil(4.3);
+    printf("i = %d \n",i);
+    i = ceil(5.3);
+    printf("i = %d \n",i);
+    i = ceil(4.6);
+    printf("i = %d \n",i);
+    i = ceil(3.1);
+    printf("i = %d \n",i);
+
+#endif // 1
+
+
+
     for(i=0; i < 4; i++)
     {
         phch[i] = (ES1653_Ch *)calloc(1,sizeof(ES1653_Ch));
@@ -37,5 +51,8 @@ int main()
     {
         cal_init_eeprom(phch[i]);
     }
+    printf("请输入任意值，退出~\n");
+    getchar();
+
 	return 0;
 }
